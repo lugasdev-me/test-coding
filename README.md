@@ -79,6 +79,7 @@ PROSES ~
 5. ketik -> docker-compose exec --user=laradock workspace bash
 6. masuk ke folder project (jika multi project)
 7. composer update, dan perintah perintah lainnya seperti artisan laravel.
-8. Thankyou, project ini akan diperbaruhi sebagai bahan ajar.
+8. Jalankan seeder dan migration: art migrate --seed
+9. Thankyou, project ini akan diperbaruhi sebagai bahan ajar.
 
 Lugas.
