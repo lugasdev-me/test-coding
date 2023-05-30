@@ -1,5 +1,12 @@
 TEST CODING DOCKER - LIVEWIRE - OAUTH2
 
+================== SOLVED ====> add extra_host & aliases for connections on docker-compose. Example:
+coding.test:${DOCKER_IP}
+networks:
+  backend:
+    aliases:
+      - coding.test
+
 DOCKER -- Error Guzzle for Laradock (currently still error)
 Livewire -- nothing actions, only get orders
 OAUTH2 -- Error Guzzle in docker lokal laradock.
